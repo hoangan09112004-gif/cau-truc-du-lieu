@@ -1,0 +1,17 @@
+1.Thuật toán:
+
+    Tạo vòng tròn N người (Node 1→2→⋯→N→1).
+
+    Bắt đầu từ Node 1, đếm M bước.
+
+    Xóa Node thứ M khỏi vòng tròn.
+
+    Lặp lại cho đến khi chỉ còn 1 Node.
+
+2.Độ phức tạp:
+
+    Với mỗi lần loại người, ta mất O(M) để duyệt. Tổng cộng loại N−1 người.
+
+    Độ phức tạp: O(N×M).
+
+    Nếu M=1, độ phức tạp là O(N). Với N>100.000, chương trình chạy rất nhanh (dưới 1s).
